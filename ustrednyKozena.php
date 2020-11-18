@@ -14,7 +14,7 @@ abstract class ustrednyKozena implements iustrednyKozena{
      * vraci hodnotu z interni promenne napetiKozena
      * @return type
      */
-    public function getNapetiKozena()
+    public function getNapetiKozena(): int
     {
         return $this->napetiKozena; 
     }
@@ -23,7 +23,7 @@ abstract class ustrednyKozena implements iustrednyKozena{
      * vklada hodnotu z value do interni promenne napetiKozena
      * @param type $value
      */
-    public function setNapetiKozena($value)
+    public function setNapetiKozena(int $value)
     {
         $this->napetiKozena = $value;     
     }
